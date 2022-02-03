@@ -1,0 +1,194 @@
+/* 表示される全体の指定 */
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("haikei.png");
+    background-attachment: fixed;
+	color: #000000;
+}
+
+/* id=""は先頭に"#" */
+#wrapper {
+	max-width:900px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.maincontent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+	flex: 1;
+	padding: 1rem;
+}
+
+h1 {
+    font-size: 35px;
+    position: relative;
+    padding: 0.5rem 0.3rem;
+    text-align: center;
+}
+
+h1:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    content: '';
+    background-image: -webkit-repeating-linear-gradient(135deg, #ffe200, #ffe200 1px, transparent 2px, transparent 5px);
+    background-image: repeating-linear-gradient(-45deg, #dd8c1d, #dd8c1d 1px, transparent 2px, transparent 5px);
+    background-size: 7px 7px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.indent {
+    text-align: center;
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    background-color: #f39800;
+    font-size: 30px;
+    position: relative;
+    padding: 1rem .5rem;
+}
+
+h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    content: '';
+    border-radius: 3px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#ff8900), to(#fdfd00));
+    background-image: -webkit-linear-gradient(right, #ff9d00 0%, #fdcc00 100%);
+    background-image: linear-gradient(to left, #ff8900 0%, #fdaf00 100%);
+}
+
+.h2text {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.attention {
+    color: #18ac84;
+    width: 30%;
+}
+
+.aikon img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.aikon2 img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.ill img{
+    width: 31%;
+}
+
+.link {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 0.5px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    padding: 0.25rem 0.5rem 0.25rem 1rem;
+    color: #fff;
+    border-radius: 100vh 0 0 100vh;
+    background: #5d71c7;
+}
+
+h3:before {
+    margin: 0;
+    position: absolute;
+    top: calc(50% - 7px);
+    left: 10px;
+    width: 14px;
+    height: 14px;
+    content: '';
+    border-radius: 50%;
+    background: #fff;
+}
+
+.h3text {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.h3text img{
+    width: 100%;
+	max-width: 900vw;
+}
+
+#banabana {
+    width: 100%;
+	max-width: 900vw;
+}
+
+
+.doga {
+     text-align: right;
+}
+
+.indent {
+	margin: 1rem 2rem;
+	line-height: 2;
+}
+
+p {
+	margin: 1rem;
+	line-height: 2;
+    font-size: 15px;
+}
+
+p img {
+	float: left;
+	margin-right: 1rem;
+}
+
+section{
+    
+	clear: both;
+	padding-top: 30px;
+}
+
+footer {
+	max-width: 900px;
+	line-height: 3;
+	text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+	.page_content {
+		display: flex;
+		flex-direction: column;
+	}
+	nav {
+		width: 100%;
+	}
+	main {
+		width: 100%;
+	}
+}
