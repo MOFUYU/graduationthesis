@@ -1,0 +1,45 @@
+a.btn1 {   
+	display: inline-block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #ff9300;
+	border: 2px solid #ff9300;
+	border-radius: 3px;
+	transition: .4s;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+a.btn1:hover {
+	background: #ff9300;
+	color: #fff;
+}
+
+a.btn2 {
+	display: inline-block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #ff9300;
+	border: 2px solid #ff9300;
+	border-radius: 3px;
+	transition: .4s;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 140px;
+}
+a.btn2:hover {
+	background: #ff9300;
+	color: #fff;
+}
+.btnselect {
+    background: #ff9300;
+	color: #fff;
+}
+.tabel {
+    margin: auto;
+    
+}

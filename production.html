@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>卒業研究発表</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="production.css">
+        
+    </head>
+<body>
+<div id="wrapper">
+    <header class="header-5">
+        <div class="header-inner">
+            <div class="logo">
+            <img src="Dices%20IPhone%20Wallpaper%20-%20IPhone%20Wallpapers.jpg" />
+            </div>
+            <nav class="header-nav">
+              <ul class="header-nav-list">
+                <a href="index.html">       <li class="header-nav-item">ホーム</li></a>
+                <a href="environment.html"> <li class="header-nav-item">開発環境</li></a>
+                <a href="production.html">  <li class="header-nav-item select">制作物一覧</li></a>
+              </ul>
+                  <div class="header-ham">
+                    <div class="menu2"></div>
+                    <div class="menu2"></div>
+                    <div class="menu2"></div>
+                  </div>
+            </nav>
+        </div>
+</header>
+
+    
+<div class="page_content">
+
+<!------------------------------------->
+<main>
+<section>
+<h1>制作物</h1>
+<p class="indent">
+    ジャンルは2人協力の謎解きアクションです。<br>
+    2D版と3D版の2つのゲームを開発しました。</p>
+    <h1></h1>
+</section>
+
+<section>
+<h2>　CUBE-2D　</h2>
+<!------------------------------------->
+    <p><img id="parapara" onclick="slideshow()" src="%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88.png"></p>
+            <script>
+            var pics_src = new Array("Dices IPhone Wallpaper - IPhone Wallpapers.jpg","%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88.png");
+            var num = 0;
+ 
+            function slideshow(){
+                if (num == 2) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("parapara").src=pics_src[num];
+            }
+            </script>
+<!-------------------------------------> 
+        <table>
+            <tr>
+                <td><a href="2D.html" class="btn1">2D PlayGame Click</a></td>
+            </tr>
+        </table>
+</section>
+<section>
+<h2>　CUBE-3D　</h2>
+<!------------------------------------->
+    <p><img id="parapara" onclick="slideshow()" src="%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88.png"></p>
+            <script>
+            var pics_src = new Array("Dices IPhone Wallpaper - IPhone Wallpapers.jpg","%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88.png");
+            var num = 0;
+ 
+            function slideshow(){
+                if (num == 2) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("parapara").src=pics_src[num];
+            }
+            </script>
+<!-------------------------------------> 
+        <table>
+            <tr>
+                <td><a href="3D.html" class="btn1">3D PlayGame Click</a></td>
+            </tr>
+        </table>
+</section>
+
+
+
+</main>
+<!------------------------------------->
+
+</div>
+<footer>
+<p><small>Copyright &copy; 2022, teamA</small></p>
+</footer>
+</div>
+</body>
+</html>
